@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Lembretes</title>
+</head>
+<body>
+    <div id="container" class="container">
+        <h1>Novo Lembrete</h1>
+
+        <div id="criar_lembrete" class="criar_lembrete">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome do lembrete" required>
+
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data" placeholder="Data do lembrete (no formato dd/mm/aaaa)" required>
+
+            <input type="submit" value="Criar" id="btnCriar">
+        </div>
+
+        <div id="listar_lembrete" class="listar_lembrete">
+            <h2>Lista de Lembretes</h2>
+
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
