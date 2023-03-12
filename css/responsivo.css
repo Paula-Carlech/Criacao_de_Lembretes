@@ -1,0 +1,49 @@
+@media (max-width: 415px){
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container{
+        width: 80vw;
+    }
+
+    .input_de_informacao{
+        width: 60vw;
+    }
+
+    .btnCriar{
+        width: 20vw;
+    }
+}
+
+@media (min-width: 688px){
+
+    .container{
+        width: 60vw;
+    }
+
+    .input_de_informacao{
+        width: 35vw;
+    }
+
+    .btnCriar{
+        width: 15vw;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .container{
+        width: 40vw;
+    }
+
+    .input_de_informacao{
+        width: 25vw;
+    }
+
+    .btnCriar{
+        width: 10vw;
+    }
+}
