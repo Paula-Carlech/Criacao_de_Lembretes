@@ -4,26 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criação de Lembretes</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Criador de Lembretes</title>
 </head>
 <body>
+
+    <header>
+        <p class="titulo principal">Criador de Lembretes</p>
+    </header>
+
     <div id="container" class="container">
-        <h1>Novo Lembrete</h1>
+
+        <h1 class="titulo">Novo Lembrete</h1>
 
         <div id="criar_lembrete" class="criar_lembrete">
             <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" placeholder="Nome do lembrete" required>
+            <input type="text" name="nome" id="nome" placeholder=" Nome do lembrete" class="input_de_informacao" required> <br>
 
             <label for="data">Data:</label>
-            <input type="date" name="data" id="data" placeholder="Data do lembrete (no formato dd/mm/aaaa)" required>
+            <input type="date" name="data" id="data" placeholder=" Data do lembrete (no formato dd/mm/aaaa)" class="input_de_informacao" required> <br>
+            
+        </div>
 
-            <input type="submit" value="Criar" id="btnCriar">
+        <div class="botao">
+            <input type="submit" value="Criar" id="btnCriar" class="btnCriar">
         </div>
 
         <div id="listar_lembrete" class="listar_lembrete">
-            <h2>Lista de Lembretes</h2>
+            <h2 class="titulo segundo_titulo">Lista de Lembretes</h2>
         </div>
     </div>
-    <script src="js/main.js"></script>
+
+    <footer>
+        <p>Desenvolvido por: <a href="https://github.com/Paula-Carlech">Paula Carlech</a></p>
+    </footer>
+
+    <script src="js/main.js" target="_blank"></script>
 </body>
 </html>
