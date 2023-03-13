@@ -1,3 +1,18 @@
+-Premissas assumidas
+A aplicação foi feita em HTML, CSS e JavaScript.
+Assumi a premissa que não há necessidade de desenvolver autenticação e que o usuário estará logado no sistema.
+Decidi executar esse projeto de forma mais simples e intuitiva, porém totalmente funcional utilizando os conhecimentos que tenho em desenvolvimento web. A página possui todas as funcionalidades solicitadas e possui um tratamento de erros caso o usuário insira algum dado incorreto. Também optei por fazer uma página responsiva caso o usuário queira usar o site em outros dispositivos.
+
+-Decisões de projeto
+O projeto foi desenvolvido de forma que o usuário consiga entender de forma simples como utilizar a ferramenta proposta. Segui todas as instruções que me foram passadas. 
+A respeito do código, foi criado um HTML simples, porém semântico com toda a estrutura necessária para construção do projeto. Logo após utilizei o JavaScript para dar funcionalidade a aplicação que foi implementada de forma que o avaliador possa entender com clareza, utilizei nomenclaturas relacionadas às funções que o código irá realizar e acrescentei comentários ao código para facilitar mais ainda o entendimento do mesmo. Também foram feitas verificações ao decorrer do desenvolvimento do projeto para saber se as informações inseridas pelo usuário são válidas e tratamento de erro para que ele possa entender quais são as informações que são aceitas.
+Sobre o CSS, foi criado um arquivo reset.css para retirar a estilização padrão dos navegadores e o arquivo principal onde criei uma estilização mais simples e leve. Também criei um arquivo responsivo.css onde ajustei os layout para que fique com boa visualização em outras telas além de desktops, como celulares e tablets.
+
+-Instruções para executar o sistema
+Para executar o sistema basta clicar no link a seguir: https://paula-carlech.github.io/Criacao_de_Lembretes/, ou acessar o repositório no github para ter acesso ao código base. Segue o link do repositório: https://github.com/Paula-Carlech/Criacao_de_Lembretes.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 # Criacao_de_Lembretes
 
 Instruções gerais
